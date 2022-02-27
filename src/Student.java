@@ -4,12 +4,12 @@ public class Student {
     private double average = 0.0;
 
 
-    public void Student(){
+    public Student(){
         lastName = "Doe";
         firstName = "John";
     }
 
-    public void Student(String lastName, String firstName){
+    public Student(String lastName, String firstName){
         this.lastName = lastName;
         this.firstName = firstName;
     }
